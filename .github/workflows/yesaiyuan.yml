@@ -2,7 +2,7 @@ name: yesaiyuan
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 0/6 * * *'
+    - cron: '7 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,11 +11,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: yesaiyuan
         env:
-          oicu72458: ${{ secrets.oicu72458 }}
+          u58379: ${{ secrets.u58379 }}
         run: |
-          echo $oicu72458 | jq -r .yd53 | /bin/bash
-          echo $dfn73 | jq -r .wjl7978 | /bin/bash
-          echo $vugd74 | jq -r .e183 | /bin/bash
-          echo $fnbso18 | jq -r .aw93 | /bin/bash
-          echo $gw7150 | jq -r .b82 | /bin/bash
+          echo $u58379 | jq -r .axa549 | /bin/bash
+          echo $jjf2 | jq -r .naaw1624 | /bin/bash
+          echo $c31 | jq -r .gnw72 | /bin/bash
+          echo $zaoiv40 | jq -r .fc23 | /bin/bash
+          echo $vmyr1196 | jq -r .lh5505 | /bin/bash
+          echo $qhqml8 | jq -r .q6 | /bin/bash
 
